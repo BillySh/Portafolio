@@ -1,0 +1,35 @@
+
+.frC{
+    @apply text-blue-300 font-bold py-2 px-3 bg-slate-800 shadow-inner w-full
+}
+
+.imgContainer{
+    @apply  bg-gradient-to-r from-purple-500 to-pink-500 content-center shadow-xl
+}
+
+.img1{
+    @apply opacity-50 flex w-screen h-96 shadow-xl
+}
+.card1{
+    @apply flex-auto bg-slate-200 h-fit w-fit rounded-md shadow-xl p-3
+}
+
+.bgImg{
+    @apply bg-black opacity-80 my-5 rounded-se-md
+}
+
+.imgText{
+    @apply absolute inset-0 flex  items-center justify-center 
+}
+
+.textImg{
+    @apply text-white text-3xl font-bold 
+}
+
+.separator{
+    @apply bg-gradient-to-r from-purple-950 to-pink-950 
+}
+
+.cardContainer{
+    @apply w-fit items-center justify-center mx-36 my-3
+}
