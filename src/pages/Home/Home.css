@@ -1,35 +1,58 @@
 
-.frC{
-    @apply text-blue-300 font-bold py-2 px-3 bg-slate-800 shadow-inner w-full
+.container{
+    @apply  bg-gradient-to-r from-purple-500 to-pink-500 content-center w-screen  h-screen  
 }
 
-.imgContainer{
-    @apply  bg-gradient-to-r from-purple-500 to-pink-500 content-center shadow-xl
-}
-
-.img1{
-    @apply opacity-50 flex w-screen h-96 shadow-xl
-}
 .card1{
-    @apply flex-auto bg-slate-200 h-fit w-fit rounded-md shadow-xl p-3
+    @apply flex-auto bg-slate-200 h-fit w-fit rounded-md shadow-xl p-3 
 }
 
-.bgImg{
-    @apply bg-black opacity-80 my-5 rounded-se-md
-}
-
-.imgText{
-    @apply absolute inset-0 flex  items-center justify-center 
-}
-
-.textImg{
-    @apply text-white text-3xl font-bold 
-}
 
 .separator{
-    @apply bg-gradient-to-r from-purple-950 to-pink-950 
+    @apply bg-gradient-to-r from-purple-950 to-pink-950  rounded-lg w-fit mx-auto p-3 text-white shadow-xl my-3 text-6xl object-center flex
 }
 
 .cardContainer{
-    @apply w-fit items-center justify-center mx-36 my-3
+    @apply w-fit items-center justify-center my-auto  
+}
+
+
+.bGrid{
+    @apply grid grid-flow-col space-x-4 w-fit mx-auto my-3
+}
+
+.linkedIn{
+    @apply rounded-xl transition-opacity duration-500  hover:opacity-55
+}
+
+.linkedLogo{
+    @apply h-20 w-20
+}
+
+.insta{
+    @apply h-20 w-20 rounded-lg
+}
+
+.projects{
+    @apply transition-opacity duration-500  hover:opacity-55 h-20 w-20
+}
+.i{
+    @apply rounded-full shadow-xl 
+}
+.imgInfoContainer{
+    @apply grid  grid-flow-col space-x-4 w-fit mx-32
+}
+.description{
+    @apply text-pretty font-medium
+}
+
+.cat{
+    @apply h-20 w-20
+}
+.frame{
+    @apply font-bold
+}
+
+.lang{
+    @apply font-bold
 }

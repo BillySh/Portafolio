@@ -16,10 +16,10 @@ const Header =() =>{
                         <Link to={ROUTES.HOME}>About Me</Link>
                     </li>
                     <li className="button">
-                        <Link to={ROUTES.HOME}>Projects</Link>
+                        <Link to={ROUTES.PROJ}>Projects</Link>
                     </li>
                     <li className="button">
-                        <Link to={ROUTES.HOME}>Contact Info</Link>
+                        <Link to={ROUTES.CONT}>Contact Info</Link>
                     </li>
                 </ul>
             </div>
