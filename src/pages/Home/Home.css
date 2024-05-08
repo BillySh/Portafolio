@@ -1,6 +1,6 @@
 
 .container{
-    @apply  bg-gradient-to-r from-purple-500 to-pink-500 content-center w-screen  h-screen  
+    @apply  bg-gradient-to-r from-purple-500 to-pink-500 content-center min-w-full  h-screen 
 }
 
 .card1{

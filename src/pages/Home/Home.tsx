@@ -11,7 +11,6 @@ const Home= () => {
     },[]); 
     return(
         <div className='container'>
-            <div>
                 <p className='separator'>
                     <img className='cat' src='https://lh3.bunny.novaskin.me/T7P9x2facwIQu1cxzjeLJkvuk6KlSuAIFKNH-R68kYFWYI15Z9hQypqs02MTGVlbvKR6G2qt5NWW0uSJzIaO7iNapuMR_quDssk' alt=''/> Hi, my name is Humberto
                 </p>
@@ -35,7 +34,6 @@ const Home= () => {
                         <img className='i' src={yo} alt=''/>
                     </div>
                 </div>
-            </div>
             <div className='bGrid'>
                 <a className='linkedIn' href='https://www.linkedin.com/in/humberto-ivan-ulloa-cardona-abbb7a24b/' >
                     <img className='linkedLogo' src='https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png' alt=''></img>
